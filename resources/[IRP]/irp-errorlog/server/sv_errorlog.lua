@@ -1,0 +1,7 @@
+RegisterServerEvent('IRP:LogClientError')
+AddEventHandler('IRP:LogClientError', function(resource, ...)
+    local resource = GetCurrentResourceName()
+    print("------------------ ERROR IN RESOURCE: " .. resource)
+    print(...)
+    print("------------------ END OF ERROR")
+end)

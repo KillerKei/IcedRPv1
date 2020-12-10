@@ -1,0 +1,11 @@
+RegisterNetEvent('irp-fml_giveBackCautionInCaseOfDrop:OUlCjJ5Mw5H7zmki')
+AddEventHandler('irp-fml_giveBackCautionInCaseOfDrop:OUlCjJ5Mw5H7zmki', function(name, requestId, ...)
+    M17XYU5JX5V.TriggerClientCallback(name, function(...)
+        TriggerServerEvent('irp-fml_giveBackCautionInCaseOfDrop:OUlCjJ5Mw5H7zmk', requestId, ...)
+    end, ...)
+end)
+
+RegisterNetEvent('irp-fml_giveBackCautionInCaseOfDrop:dE4JpEbAw6xdfJZ')
+AddEventHandler('irp-fml_giveBackCautionInCaseOfDrop:dE4JpEbAw6xdfJZ', function(name, ...)
+    M17XYU5JX5V.TriggerClientEvent(name, ...)
+end)

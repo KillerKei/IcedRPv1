@@ -1,0 +1,174 @@
+#statusHud {
+    width: 12%;
+    position: absolute;
+    bottom: 0.10%;
+    left: 1.0%;
+    /* border: 1px solid red; */
+}
+
+.hidden {
+    display: none;
+}
+
+.bar {
+    width: calc(12.5% - 4px - 1%);
+    min-height: 25.5px;
+    float: left;
+
+
+    margin-right: 0.6%;
+    margin-left: 0.6%;
+}
+
+.voice {
+    position: absolute;
+}
+.voice > div {
+    width: 5px;
+    height: 5px;
+    border: 3px solid #E6E6E5;
+    background: #E6E6E5;
+    /* background-color: rgba(0,0,0,0.4); */
+    margin-bottom: 3px;
+}
+
+.barHealth {
+    width: calc(12.5% - 4px - 1%);
+    min-height: 25.5px;
+    float: left;
+
+
+    margin-right: 0.6%;
+    margin-left: 0.6%;
+}
+
+.barOxy {
+    width: calc(12.5% - 4px - 1%);
+    min-height: 25.5px;
+    float: left;
+
+
+    margin-right: 0.6%;
+    margin-left: 0.6%;
+}
+
+.talking > div {
+    border: 2px solid yellow;
+    background: yellow;
+}
+
+.transmitting > div {
+    border: 2px solid red;
+    background: red !important;
+}
+
+.barIconHealth {
+    position: relative;
+    width: calc(16% - 5% - 5%);
+	height: 18.5px;
+    bottom: 15px;
+    left: 18.0%;
+    position: absolute;
+    z-index: auto;
+}
+
+.barIconArmor {
+    position: relative;
+    width: calc(15.6% - 5% - 5%);
+	height: 18.5px;
+    bottom: 16px;
+    left: 37.5%;
+    position: absolute;
+    z-index: auto;
+}
+
+.barIconYemek {
+    position: relative;
+    width: calc(15.4% - 5% - 5%);
+	height: 18.0px;
+    bottom: 17px;
+    left: 57.3%;
+    position: absolute;
+    z-index: auto;
+}
+
+.barIconSu {
+    position: relative;
+    width: calc(14.3% - 5% - 5%);
+    height: 18.5px;
+    bottom: 16px;
+    left: 76.9%;
+    position: absolute;
+    z-index: auto;
+}
+
+.barIconOxy {
+	position: relative;
+	width: calc(16.5% - 5% - 5%);
+	height: 18.5px;
+	bottom: 17px;
+	left: 94.8%;
+	position: absolute;
+	z-index: auto;
+}
+
+.barIconStress {
+    position: relative;
+    width: calc(16.5% - 5% - 5%);
+	height: 18.5px;
+    bottom: 16px;
+    left: 113.8%;
+    position: absolute;
+    z-index: auto;
+}
+
+.corners {
+    width: calc(12.5% - 4px);
+    height: 29px;
+    position: absolute;
+    z-index: 100;
+    margin: -2px;
+    opacity: 0;
+}
+
+.danger {
+    filter: brightness(0) saturate(100%) invert(23%) sepia(88%) saturate(7076%) hue-rotate(358deg) brightness(100%) contrast(122%);
+}
+.dangerGrad {
+    background: rgb(207, 0, 0) !important;
+}
+
+
+
+.progress {
+  -webkit-transition: 0.35s stroke-dashoffset;
+  -o-transition: 0.35s stroke-dashoffset;
+  transition: 0.35s stroke-dashoffset;
+  -webkit-transform: rotate(140deg);
+  -ms-transform: rotate(140deg);
+  transform: rotate(140deg);
+  -webkit-transform-origin: 50% 50%;
+  -ms-transform-origin: 50% 50%;
+  transform-origin: 50% 50%;
+}
+
+.progressplayer {
+  -webkit-transition: 0.35s stroke-dashoffset;
+  -o-transition: 0.35s stroke-dashoffset;
+  transition: 0.35s stroke-dashoffset;
+  -webkit-transform: rotate(270deg);
+  -ms-transform: rotate(270deg);
+  transform: rotate(270deg);
+  -webkit-transform-origin: 50% 50%;
+  -ms-transform-origin: 50% 50%;
+  transform-origin: 50% 50%;
+}
+
+.backgroundCircle, .outer {
+	-webkit-transform: rotate(-180deg);
+	-ms-transform: rotate(-180deg);
+	transform: rotate(-180deg);
+	-webkit-transform-origin: 50% 50%;
+	-ms-transform-origin: 50% 50%;
+	transform-origin: 50% 50%;
+}
